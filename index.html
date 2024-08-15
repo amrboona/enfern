@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chanuvar</title>
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start Header -->
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo center-flex center-flex">انفيرن.</a>
+                <div class="search-area" id="search-area">
+                    <div class="search-bar">
+                        <div class="categories" id="categories">
+                            <div class="selected-category">
+                                <span class="selected-category-text" id="selected-category-text">جميع التصنيفات</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                            <div class="categories-list" id="categories-list">
+                                <div class="categories-list-container">
+                                    <li class="categories-list-item">جميع التصنيفات</li>
+                                    <li class="categories-list-item">الطاقه المتجدده</li>
+                                    <li class="categories-list-item">الطاقه النظيفه</li>
+                                    <li class="categories-list-item">الشبكات الكهربيه</li>
+                                    <li class="categories-list-item">الطاقه النوويه</li>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="search" placeholder="ابحث في جميع التصنيفات.." class="header-input-search">
+                        <button class="header-btn-search center-flex">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="header-icons">
+                    <div class="search-area-icon center-flex" id="search-area-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="menu" id="menu-icon">
+                        <div class="menu-icon center-flex">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </div>
+                        <div class="menu-content" id="menu-content">
+                            <div class="menu-content-items">
+                                <a href="#">خدمه العملاء</a>
+                                <a href="#">شركائنا</a>
+                                <a href="#">المنتجات</a>
+                                <a href="#">مشاريع الطاقه</a>
+                                <a href="#">التواصل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-swiper-content-container">
+                    <div class="swiper-container">
+                        <div class="hero-swiper-wrapper">
+                            <div class="hero-swiper-slide">
+                                <video src="videos/hero-video-1.mp4" type="mp4" class="background-clip" autoplay loop muted></video>
+                                <div class="text-container">
+                                    <h1>بناء محطات الطاقه النوويه للاستخدامات السلميه كتوليد الطاقه الكهربائيه</h1>
+                                </div>
+                            </div>
+                            <div class="hero-swiper-slide">
+                                <video src="videos/hero-video-2.mp4" type="mp4" class="background-clip" autoplay loop muted></video>
+                                <div class="text-container">
+                                    <h1>العمل على انشاء محطات الكهرباء بالتعاون مع شركائنا من مختلف الدول</h1>
+                                </div>
+                            </div>
+                            <div class="hero-swiper-slide">
+                                <video src="videos/hero-video-3.mp4" type="mp4" class="background-clip" autoplay loop muted></video>
+                                <div class="text-container">
+                                    <h1>اكتشاف آبار البترول واستخراجه وتكريره وتوزيعه على الشركات والمصانع المختصه</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="hero-prev-button center-flex">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="hero-next-button center-flex">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero -->
+
+        <!-- Start Community -->
+        <section class="community">
+            <div class="container">
+                <div class="community-header section-header">
+                    <h2>الانضمام الى مجتمع انفيرن</h2>
+                    <p>انضم الى مجتمعنا لمشاركه خبراتك والاستفاده من خبرائنا في المجالات الختلفه للطاقه وتعزيز امكاناتك لتستفيد منها مستقبلا في الشركات الأخرى وافاده المجتمع والبيئه.</p>
+                    <a href="#" class="join-now btn">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>الانضمام الآن</span>
+                    </a>
+                </div>
+                <div class="community-content">
+                    <div class="expert">
+                        <h4>الانضمام كخبير في الطاقه</h4>
+                        <div class="image-container center-flex">
+                            <img src="images/community-1.svg" alt="">
+                        </div>
+                        <p>يمكنا توظيف الخبراء في مجالات الطاقه المتنوعه والاستفاده من خبراتهم الطويله.</p>
+                    </div>
+                    <div class="community-join">
+                        <div class="jobs">
+                            <h4>التقديم على الوظائف</h4>
+                            <p>يمكنك تقديم طلب توظيف في انفيرن وسيتم تحديد مقابله لتحديد المستوى العلمي واعملي للوظيفه المناسبه.</p>
+                        </div>
+                        <div class="training">
+                            <h4>التدريب في انفيرن</h4>
+                            <p>نتيح للخريجين الجدد امكانيه التدريب في انفيرن واثقالهم بخبراتنا المتعدده في مجالات الطاقه مع الحفاظ على حقوقهم الماديه.</p>
+                        </div>
+                        <div class="investor">
+                            <div class="investor-text">
+                                <h4>الانضمام كمستثمر في مجموعه انفيرن</h4>
+                                <p>يمكنك استثمار اموالك مع انفيرن وتحقيق ارباح جيده من مجال الطاقه.</p>
+                            </div>
+                            <div class="image-container center-flex">
+                                <img src="images/community-2.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Community -->
+
+        <!-- Start Projects -->
+        <section class="projects">
+            <div class="container">
+                <div class="projects-header section-header">
+                    <h2>أكبر المشاريع التي قامت انفيرن بتنفيذها على المستوى المحلي والاقليمي</h2>
+                    <p>قمنا بتنفيذ العديد من المشاريع الضخمه في مجالات الطاقه النظيفه والمنتجدده مثل انشاء المحطات النوويه وبناء السدود وتوليد الكهرباء عن طريق الرياح بالاضافه الى العمل على استخراج وتكرير النفط بمساعده شركائنا.</p>
+                </div>
+                <div class="projects-container">
+                    <div class="projects-card">
+                        <div class="projects-content">
+                            <div class="projects-icon-container center-flex">
+                                <i class="fa-solid fa-radiation"></i>
+                            </div>
+                            <div class="projects-text">
+                                <h4>الطاقه النوويه</h4>
+                                <p>انشاء محطه الطاقه النوويه في جمهوريه تركيا بالتعاون مع الهيئه الهندسيه للقوات المسلحه التركيه وتم انجاز المشروع بشكل كامل في مده وجيزه.</p>
+                            </div>
+                            <a href="#" class="see-projects btn">
+                                <i class="fa-brands fa-discourse"></i>
+                                <span>اطلع على المشروع</span>
+                            </a>
+                        </div>
+                        <div class="projects-image center-flex">
+                            <img src="images/projects-1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-image center-flex">
+                            <img src="images/projects-2.jpeg" alt="">
+                        </div>
+                        <div class="projects-content">
+                            <div class="projects-icon-container center-flex">
+                                <i class="fa-solid fa-sun"></i>
+                            </div>
+                            <div class="projects-text">
+                                <h4>الطاقه الشمسيه</h4>
+                                <p>قمنا بالتعاون مع شركه siemens بانشاء محطه الضبعه للطاقه الشمسيه وطاقه الرياح في مصر وتم انجاز المشروع بشكل كامل وتم اضافاه انشاءات أخرى بعد عامين وتم الانتهاء منها بشكل تام.</p>
+                            </div>
+                            <a href="#" class="see-projects btn">
+                                <i class="fa-brands fa-discourse"></i>
+                                <span>اطلع على المشروع</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects-card">
+                        <div class="projects-content">
+                            <div class="projects-icon-container center-flex">
+                                <i class="fa-solid fa-tower-broadcast"></i>
+                            </div>
+                            <div class="projects-text">
+                                <h4>أبراج الاتصالات</h4>
+                                <p>تم العمل على تخطيط الرسومات واكتشاف المشكلات وحلها لبناء برج القاهره الدولي في مصر وتم تسليم المخططات الى الهيئه المنفذه.</p>
+                            </div>
+                            <a href="#" class="see-projects btn">
+                                <i class="fa-brands fa-discourse"></i>
+                                <span>اطلع على المشروع</span>
+                            </a>
+                        </div>
+                        <div class="projects-image center-flex">
+                            <img src="images/projects-3.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Projects -->
+
+        <!-- Start Partners -->
+        <section class="partners">
+            <div class="container">
+                <div class="partners-header section-header">
+                    <h2>تواصل مع شركائنا للعمل في المجالات المختلفه للطاقه واداره المشاريع</h2>
+                    <p>احصل على الاستشارات والخطط المستقبليه للمشاريع المتنوعه في مجال الطاقه عن طريق التواصل مع عملاء انفيرين للطاقه واكتشاف الاعمال السابقه لهم والحصول على الدعم الفني والتقني.</p>
+                </div>
+                <div class="partners-container">
+                    <div class="partners-card">
+                        <div class="partners-image center-flex">
+                            <img src="images/partners-1.jpg" alt="">
+                        </div>
+                        <div class="partners-text">
+                            <h4>فيندو للاستشارات التقنيه</h4>
+                            <p>تقديم الاستشارات التقنيه والفنيه لمجالات الطاقه المختلفه اهمها الطاقه الكهربيه.</p>
+                        </div>
+                        <div class="partners-details">
+                            <div class="partners-user">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>باريس</span>
+                            </div>
+                            <a href="#" class="partners-btn center-flex">التفاصيل</a>
+                            <div class="partners-price">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span>نازداك</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-card">
+                        <div class="partners-image center-flex">
+                            <img src="images/partners-2.png" alt="">
+                        </div>
+                        <div class="partners-text">
+                            <h4>شركه ميراج المتحده</h4>
+                            <p>العمل على صناعه المتجات الكهربيه بجوده وخامات عالميه.</p>
+                        </div>
+                        <div class="partners-details">
+                            <div class="partners-user">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>واشنطن</span>
+                            </div>
+                            <a href="#" class="partners-btn center-flex">التفاصيل</a>
+                            <div class="partners-price">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span>طوكيو</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-card">
+                        <div class="partners-image center-flex">
+                            <img src="images/partners-3.jpg" alt="">
+                        </div>
+                        <div class="partners-text">
+                            <h4>باورلي للطاقه المتجدده</h4>
+                            <p>اكتشاف طرق جديده لتوليد الطاقه النظيفه للحفاظ على البيئه والمجتمع.</p>
+                        </div>
+                        <div class="partners-details">
+                            <div class="partners-user">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>القاهره</span>
+                            </div>
+                            <a href="#" class="partners-btn center-flex">التفاصيل</a>
+                            <div class="partners-price">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span>المصريه</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-card">
+                        <div class="partners-image center-flex">
+                            <img src="images/partners-4.jpg" alt="">
+                        </div>
+                        <div class="partners-text">
+                            <h4>مؤسسه اكتيف</h4>
+                            <p>العمل على المشاريع الكبري في الاقاليم النائيه واكتشاف الخبرات الجديده.</p>
+                        </div>
+                        <div class="partners-details">
+                            <div class="partners-user">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>لندن</span>
+                            </div>
+                            <a href="#" class="partners-btn center-flex">التفاصيل</a>
+                            <div class="partners-price">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span>كاونتي</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-card">
+                        <div class="partners-image center-flex">
+                            <img src="images/partners-5.jpg" alt="">
+                        </div>
+                        <div class="partners-text">
+                            <h4>مجموعه استيم للطاقه</h4>
+                            <p>مشاركه كبري الشركات لتوليد محطات الطاقه الكهربيه والنوويه وغيرها.</p>
+                        </div>
+                        <div class="partners-details">
+                            <div class="partners-user">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>مدريد</span>
+                            </div>
+                            <a href="#" class="partners-btn center-flex">التفاصيل</a>
+                            <div class="partners-price">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span>نازداك</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners-card">
+                        <div class="partners-image center-flex">
+                            <img src="images/partners-6.png" alt="">
+                        </div>
+                        <div class="partners-text">
+                            <h4>برايتلي التعاونيه</h4>
+                            <p>تقديم خدمات فنيه وخرائط المشاريع الكبري وتطوير اطارات العمل باستخدام الاجهزه الحديثه لمجالات الطاقه.</p>
+                        </div>
+                        <div class="partners-details">
+                            <div class="partners-user">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>الرياض</span>
+                            </div>
+                            <a href="#" class="partners-btn center-flex">التفاصيل</a>
+                            <div class="partners-price">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span>الجبيل</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Partners -->
+
+        <!-- Start Enroll -->
+        <section class="enroll">
+            <div class="container">
+                <div class="enroll-content">
+                    <div class="enroll-header">
+                        <h2>كيفيه التسجيل<br>على المشاريع الصغيره</h2>
+                    </div>
+                    <div class="enroll-steps">
+                        <div class="step-box">
+                            <h4>تواصل مع فريق انفيرين</h4>
+                            <p>تواصل معنا لتحديد مقابله لاستكشاف ومناقشه المشروع الخاص بك.</p>
+                        </div>
+                        <div class="step-box">
+                            <h4>تقديم المستندات</h4>
+                            <p>يمكنك تقديم المستندات والرسومات الهندسيه والفنيه لمراجعتها والتصديق عليها.</p>
+                        </div>
+                        <div class="step-box">
+                            <h4>الحصول على الأفكار</h4>
+                            <p>بعد مراجعه مشروعك والأوراق والمستندات الخاصه به سوف نرسلك لك لتحديد مقابله.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="get-started-btn btn">
+                        <i class="fa-solid fa-meteor"></i>
+                        <span>ابدأ التسجيل الأن</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End Enroll -->
+
+        <!-- Start Customers -->
+        <section class="customers">
+            <div class="container">
+                <div class="customers-header section-header">
+                    <h2>تم العمل على تقديم الخدمات الفنيه واداره المشاريع لعملائنا</h2>
+                </div>
+                <div class="customers-container">
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-1.png" alt="">
+                    </a>
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-2.jpg" alt="">
+                    </a>
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-3.png" alt="">
+                    </a>
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-4.jpg" alt="">
+                    </a>
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-5.png" alt="">
+                    </a>
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-6.jpg" alt="">
+                    </a>
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-7.jpg" alt="">
+                    </a>
+                    <a href="#" class="customers-link center-flex">
+                        <img src="images/customers-8.jpg" alt="">
+                    </a>
+                    <div class="customers-text">
+                        <p>نعمل مع شركائنا على مدار الساعه لتقديم الحلول الفنيه والتقنيه واداره المشاريع ووضع خطط مستقبليه لأفكار عملائنا وتجنب وقوعهم في الأخطاء التشغيليه أثناء التنفيذ.</p>
+                        <a href="#">مزيد من العملاء</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Customers -->
+
+        <!-- Start Features -->
+        <div class="features">
+            <div class="features-content">
+                <div class="container">
+                    <div class="features-header section-header">
+                        <h2>جرب المزايا الجديده في مجالات الطاقه المتعدده بدون حدود</h2>
+                        <p>هناك العديد من مميزات الطاقة المتجددة على حياة الفرد، والتي تتمثل في: تكلفة أقل: الاعتماد على مصادر الطاقة المتجددة يساعدك بالحصول على تكلفة أقل، وبالتالي سوف تحقق المزيد من التوفير بحياتك.</p>
+                        <a href="#" class="get-started-btn btn">
+                            <i class="fa-solid fa-medal"></i>
+                            <span>استكشف الآن</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="features-links">
+                <a href="#">
+                    <div class="features-link-tab">
+                        <p>
+                            <span></span>
+                            <span>أبراج الشبكات الكهربيه</span>
+                        </p>
+                    </div>
+                    <img src="images/features-1.avif" alt="features section image one">
+                </a>
+                <a href="#">
+                    <div class="features-link-tab">
+                        <p>
+                            <span></span>
+                            <span>محطات توليد الطاقه الكهربيه</span>
+                        </p>
+                    </div>
+                    <img src="images/features-2.avif" alt="features section image two">
+                </a>
+                <a href="#">
+                    <div class="features-link-tab">
+                        <p>
+                            <span></span>
+                            <span>الطاقه النوويه</span>
+                        </p>
+                    </div>
+                    <img src="images/featues-3.avif" alt="features section image three">
+                </a>
+            </div>
+        </div>
+        <!-- End Features -->
+
+        <!-- Start Marketplace -->
+        <section class="marketplace">
+            <div class="container">
+                <div class="marketplace-header section-header">
+                    <h2>منافذ البيع الخاصه بنا وبشركائنا</h2>
+                    <p>قم بشراء منتجاتنا ومنتجات شركائنا من خلال منافذ البيع الخاصه بنا وأحصل على خصم 50% بالاضافه الى قسيمه شراء لمده عام لشراء المنتجات البتروليه والنفطيه بالاضافه الى عرض خارطه الطريق للمشاريع الكبرى.</p>
+                    <a href="#" class="marketplace-btn btn btn-black">
+                        <i class="fa-solid fa-shop"></i>
+                        <span>منافذ البيع</span>
+                    </a>
+                </div>
+                <div class="marketplace-cards">
+                    <div class="card">
+                        <h4>منفذ بيع المنطقه الصناعيه - اسطنبول</h4>
+                        <div class="card-lines">
+                            <p>- الصناعات الثقيله.</p>
+                            <p>- الصناعات النفطيه.</p>
+                            <p>- الألواح الكهربيه.</p>
+                            <p>- اعداد البنى التحتيه.</p>
+                            <p>- فهرسه مستندات المشاريع.</p>
+                        </div>
+                        <div class="card-image center-flex">
+                            <img src="images/marketplace-1.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>منفذ بيع مدينه مانشيستر - المملكه المتحده</h4>
+                        <div class="card-lines">
+                            <p>- المحولات الكهربيه.</p>
+                            <p>- الطاقه الشمسيه.</p>
+                            <p>- أبراج ومروحيات طاقه الرياح.</p>
+                            <p>- بناء السدود المائيه.</p>
+                            <p>- وحدات المفاعلات النوويه.</p>
+                        </div>
+                        <div class="card-image center-flex">
+                            <img src="images/marketplace-2.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>مصنع طاقه لاستخراج النفط - العاشر من رمضان</h4>
+                        <div class="card-lines">
+                            <p>- اكتشاف الأبار الجديده.</p>
+                            <p>- تكرير البترول.</p>
+                            <p>-مشتقات البترول.</p>
+                            <p>- المنتجات البتروليه في الأسواق.</p>
+                            <p>- استيراد المازوت والبنزين وغيرهما.</p>
+                        </div>
+                        <div class="card-image center-flex">
+                            <img src="images/marketplace-3.avif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Marketplace -->
+
+        <!-- Start Companies -->
+        <section class="companies">
+            <div class="container">
+                <div class="companies-header">
+                    <h2>مصانع وشركات شركه انفيرن للطاقه.</h2>
+                    <div class="text-and-btns">
+                        <p>اكتشف جميع المصانع والشركان الخاصه بنا بالاضافه الى معرفه وكلائنا وشركائنا والموزعين الخاصين بشركه انفيرن لتكون على درايه بكل ما هو جديد.</p>
+                        <div class="companies-header-btn">
+                            <a href="#" class="btn">
+                                <i class="fa-solid fa-certificate"></i>
+                                <span>ابدأ الآن</span>
+                            </a>
+                            <a href="#" class="all-factories">
+                                <span>جميع المصانع والشركات</span>
+                                <i class="fa-solid fa-arrow-left-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="companies-swiper">
+                    <div class="companies-swiper-container">
+                        <div class="companies-swiper-wrapper">
+                            <div class="companies-swiper-slide"></div>
+                            <div class="companies-swiper-slide"></div>
+                            <div class="companies-swiper-slide"></div>
+                        </div>
+                    </div>
+                    <button class="companies-prev-button center-flex">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="companies-next-button center-flex">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- End Companies -->
+
+        <!-- Start Distributors -->
+        <section class="distributors">
+            <div class="container">
+                <h3>الموزعون المعتمدون:</h3>
+                <div class="distributors-container">
+                    <div class="distributors-box center-flex">
+                        <img src="images/agility-cms-monogram-logo.svg" alt="">
+                    </div>
+                    <div class="distributors-box center-flex">
+                        <img src="images/contentful-monogram-logo.svg" alt="">
+                    </div>
+                    <div class="distributors-box center-flex">
+                        <img src="images/contentstack-monogram-logo.svg" alt="">
+                    </div>
+                    <div class="distributors-box center-flex">
+                        <img src="images/drupal-monogram-logo.svg" alt="">
+                    </div>
+                    <div class="distributors-box center-flex">
+                        <img src="images/sanity-monogram-logo.svg" alt="">
+                    </div>
+                    <div class="distributors-box center-flex">
+                        <img src="images/shopify-monogram-logo.svg" alt="">
+                    </div>
+                    <div class="distributors-box center-flex">
+                        <img src="images/storyblok-monogram-logo.svg" alt="">
+                    </div>
+                    <div class="distributors-box center-flex">
+                        <img src="images/wordpress-monogram-logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Distributors -->
+
+        <!-- Start Services -->
+        <section class="services">
+            <div class="services-header section-header">
+                <div class="container">
+                    <h2>اطلع على خدماتنا.</h2>
+                </div>
+            </div>
+            <div class="services-container">
+                <div class="container">
+                    <div class="services-area">
+                        <h4>احصل على اجوبه</h4>
+                        <p>تواصل مع فريق الدعم واحصل على بعد الحلول والاستفسارات التي قد واجهتك في مشاريعك التقنيه.</p>
+                        <a href="#" class="help-center">
+                            <span>مركز المساعده</span>
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                        </a>
+                    </div>
+                    <div class="services-area">
+                        <h4>تواصل معنا</h4>
+                        <p>احصل على الدعم أو تواصل عبر الرسائل أو عن طريق حجز مكالمه صوتيه مع خدمه العملاء.</p>
+                        <a href="#" class="send-us">
+                            <span>ارسل لنا</span>
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                        </a>
+                    </div>
+                    <div class="services-area">
+                        <h4>شارك برأيك</h4>
+                        <p>يمكنك تقديم افكارك ومشاركتها مع مجتمع انفيرين للحلول الذكيه.</p>
+                        <a href="#" class="browse">
+                            <span>تصفح جميع الخدمات</span>
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Services -->
+
+        <!-- Start Faqs -->
+        <section class="faqs">
+            <div class="container">
+                <h3>الأسئله الشائعه.</h3>
+                <div class="faqs-container">
+                    <div class="faqs-box">
+                        <div class="faqs-box-head" id="faqs-box-head">
+                            <h5>ما هي الطاقه المتجدده؟</h5>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faqs-box-text" id="faqs-box-text">
+                            <p>الطاقة المتجددة هي طاقة ناتجة عن مصادر طبيعيةتتجدد بمعدل يفوق ما يتم استهلاكه. أشعة الشمس والرياح، على سبيل المثال، من المصادر التي تتجدد باستمرار. وإن مصادر الطاقة المتجددة وفيرة وموجودة في كل مكان حولنا. بالمقابل، الوقود الأحفوري (الفحم والنفط والغاز) من الموارد غير المتجددة التي يستغرق تشكيلها مئات الملايين من السنين. ويتسبب الوقود الأحفوري، عند حرقه لإنتاج الطاقة، في انبعاثات ضارة من غازات الدفيئة، مثل ثاني أكسيد الكربون.</p>
+                        </div>
+                    </div>
+                    <div class="faqs-box">
+                        <div class="faqs-box-head" id="faqs-box-head">
+                            <h5>كيفيه ايجاد الحلول التقنيه للطاقه؟</h5>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faqs-box-text" id="faqs-box-text">
+                            <p>يختلف معنى مصطلح (خارج الشبكة) حسب استخدامه. وهناك ثلاثة أسباب رئيسة تقف عائقاً في وجه الاتصال بالشبكة الكهربائية. الأول أن عددًا من المجتمعات الصغيرة في بلدان نامية في إفريقيا وآسيا (الهند مثلًا) لا تملك الأموال الكافية للإنفاق على الاتصال المستمر بالشبكة الكهربائية العامة. والسبب الثاني أن بعض الأماكن نائية جدًا، ولا يمكن وصلها بالشبكة بسهولة بسبب المسافة البعيدة التي تفصلها عن البنية التحتية الأساسية؛ وتكثر هذه الأماكن في إفريقيا وأستراليا. أما السبب الأخير فيعزى إلى عدم رغبة بعض الناس بالاتصال بشبكة الكهرباء العامة لأنهم يرغبون في تحقيق الاكتفاء الذاتي.</p>
+                        </div>
+                    </div>
+                    <div class="faqs-box">
+                        <div class="faqs-box-head" id="faqs-box-head">
+                            <h5>كيفيه توظيف الطاقه؟</h5>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faqs-box-text" id="faqs-box-text">
+                            <p>بلغت أربعة مؤشرات لتغير المناخ - تركيزات غازات الدفيئة وارتفاع مستوى سطح البحر وحرارة المحيطات وتحمض المحيطات - رقاما قياسية جديدة في عام 2021. هذا دليل واضح آخر على أن الأنشطة البشرية تسبب تغيرات عالمية على اليابسة وفي المحيط وفي الغلاف الجوي، مع تداعيات مأسوية وطويلة الأمد. مفتاح معالجة هذه الأزمة هو إنهاء اعتمادنا على الطاقة المولدة من الوقود الأحفوري - السبب الرئيسي لتغير المناخ.</p>
+                        </div>
+                    </div>
+                    <div class="faqs-box">
+                        <div class="faqs-box-head" id="faqs-box-head">
+                            <h5>كيفيه انشاء مشاريع الطاقه المتجدده؟</h5>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faqs-box-text" id="faqs-box-text">
+                            <p>تحديد أفضل قطع الأرض للحصول على ومراقبة نشاط التأجير وحيازة الأراضي. يوفر ArcGIS مخزنًا مشتركًا للوصول إلى بيانات الأراضي الخاصة بك على مستوى المشروع والمنطقة والشركات. الاستفادة من خدمات الويب والخرائط للسماح بالاستخدام والتحليل المباشر في المكتب أو الميدان وتوفير المشاركة عبر المؤسسة.</p>
+                        </div>
+                    </div>
+                    <div class="faqs-box">
+                        <div class="faqs-box-head" id="faqs-box-head">
+                            <h5>هل استخدام الطاقه النوويه خطر على البيئه والانسان؟</h5>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faqs-box-text" id="faqs-box-text">
+                            <p>ينبعث من توليد الطاقة النووية غازات دفيئة ضارة في الهواء ولكنّه يخلّف نفايات خطرة. إذ تظل النفايات الناتجة عن محطات الطاقة النووية مشعة بشكل خطر لآلاف السنين بعد استخراجها، وهنا تكمن العديد من المشكلات عند محاولة معرفة كيفية تخزين هذه النفايات.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Faqs -->
+
+        <!-- Start Footer -->
+        <footer class="footer">
+            <section class="hanuvar-section">
+                <div class="container">
+                    <a href="#" class="hanuvar-logo center-flex">انفيرن لاستشارات الطاقه.</a>
+                    <p>تواصل مع مهندسينا لتقديم الدعم الفني والتقني واكتشاف الحلول الرقميه وبناء المشاريع الهندسيه.</p>
+                    <div class="social-media">
+                        <a href="#" class="social-media-box center-flex">
+                            <i class="fa-brands fa-twitter"></i>
+                            <span>تويتر.</span>
+                        </a>
+                        <a href="#" class="social-media-box center-flex">
+                            <i class="fa-brands fa-instagram"></i>
+                            <span>انستجرام.</span>
+                        </a>
+                        <a href="#" class="social-media-box center-flex">
+                            <i class="fa-brands fa-dribbble"></i>
+                            <span>دريبل.</span>
+                        </a>
+                        <a href="#" class="social-media-box center-flex">
+                            <i class="fa-brands fa-threads"></i>
+                            <span>ثريد.</span>
+                        </a>
+                        <a href="#" class="social-media-box center-flex">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>واتس أب.</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-links">
+                <div class="container">
+                    <div class="links-col">
+                        <label for="products">المنتجات</label>
+                        <input type="checkbox" id="products">
+                        <ul class="links-col-content">
+                            <a href="#">المنتجات الرقميه</a>
+                            <a href="#">المنتجات السوقيه</a>
+                            <a href="#">منافذ البيع</a>
+                            <a href="#">الوكلاء المعتمدين</a>
+                            <a href="#">الفروع</a>
+                            <a href="#">التواصل</a>
+                            <a href="#">وسائل الاتصال</a>
+                            <a href="#">الشكاوي</a>
+                        </ul>
+                    </div>
+                    <div class="links-col">
+                        <label for="softwares">الااستشارات</label>
+                        <input type="checkbox" id="softwares">
+                        <ul class="links-col-content">
+                            <a href="#">الاستشارات الهندسيه</a>
+                            <a href="#">التواصل مع المهندسين</a>
+                            <a href="#">بناء لوحات تحكم</a>
+                            <a href="#">دعم تنفيذ المشاريع</a>
+                        </ul>
+                    </div>
+                    <div class="links-col">
+                        <label for="companiess">الحلول</label>
+                        <input type="checkbox" id="companiess">
+                        <ul class="links-col-content">
+                            <a href="#">الحلول الرقميه</a>
+                            <a href="#">الحلول الهندسيه</a>
+                            <a href="#">الحلول البيئيه</a>
+                            <a href="#">الحلول الفيزيائيه</a>
+                            <a href="#">تبسيط المشكلات</a>
+                            <a href="#">اكتشاف مشاكل التركيب</a>
+                            <a href="#">صيانه دوريه</a>
+                            <a href="#">المهندسين الفنيين</a>
+                            <a href="#">تواصل مع الدعم</a>
+                        </ul>
+                    </div>
+                    <div class="links-col">
+                        <label for="support">الدعم</label>
+                        <input type="checkbox" id="support">
+                        <ul class="links-col-content">
+                            <a href="#">مركز المساعدات</a>
+                            <a href="#">خدمه العملاء</a>
+                            <a href="#">ابلغ عن مشكله</a>
+                            <a href="#">تقرير عن حاله النظام</a>
+                            <a href="#">اكتشاف الثغرات الامنيه</a>
+                            <a href="#">الدعم التقني</a>
+                        </ul>
+                    </div>
+                    <div class="links-col">
+                        <label for="companies">الشراكات</label>
+                        <input type="checkbox" id="companies">
+                        <ul class="links-col-content">
+                            <a href="#">شركائنا</a>
+                            <a href="#">الموردون</a>
+                            <a href="#">الشركات الصناعيه</a>
+                            <a href="#">منتجات تابعه لنا</a>
+                            <a href="#">شراكات البنوك التمويليه</a>
+                            <a href="#">نقابه المهندسين</a>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-bottom">
+                <div class="container">
+                    <p>&copy 2023 - 2024 انفيرن لاستشارات الطاقه - جمهوريه مصر العربيه</p>
+                </div>
+            </section>
+        </footer>
+        <!-- End Footer -->
+        
+        <!-- Scripts -->
+        <script src="js/scripts.js"></script>
+        <!-- Font Awesome -->
+        <script src="js/all.min.js"></script>
+    </body>
+</html>
